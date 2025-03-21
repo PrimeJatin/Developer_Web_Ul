@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.firstSec{
+    background-image: url("images/developer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+}
+.firstPage{
+    display: inline-block ;
+    color: white;
+}
+.firstPage h1{
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: start;
+    transition: 0.5s ease;
+}
+.firstPage span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2rem 0;
+    font-weight: lighter;
+    transition: 0.5s ease;
+}
+.title h2{
+    font-size: 3.5rem;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+.title span{
+    font-size: 5rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.secondSec{
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+.boxOne{
+    height: 400px;
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.5s ease-in-out;
+}
+.bgImg{
+    height: 50%;
+    background-image: url("images/developer.png");
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.two{
+    background-image: url("images/mobile.png");
+}
+.three{
+    background-image: url("images/web.png");
+}
+.boxOne:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    height: 50%;
+    transition: 0.3s ease-in;
+}
+.text h3{
+    font-size: 1.4rem;}
+.text p{
+    line-height: 1.4;
+}
+
+
+@media(max-width: 1024px){
+
+
+    .firstSec{
+        padding-top: 5rem;
+    }
+
+    .firstPage h1{
+        font-size: 3rem;
+    }
+    .firstPage span{
+        font-size: 1rem;
+    }
+    .title h2{
+        font-size: 2.5rem;
+    }
+    .title span{
+        font-size: 4rem;
+    }
+    .wrap .boxOne{
+        height: 300px;
+    }
+    .wrap .text{
+        padding: 1rem;
+    }
+    .wrap h3{
+        font-size: 1rem;
+    }
+    .wrap .text p{
+        font-size: .7rem;
+    }
+}
+
+@media(max-width: 768px){
+
+    .firstSec{
+
+        padding-top: 6rem;
+
+    }
+
+    .firstPage h1{
+        font-size: 2.5rem;
+    }
+
+    .firstPage span{
+        font-size: 1rem;
+    }
+
+    .title h2{
+        font-size: 1.5rem;
+    }
+    .title span{
+        font-size: 3rem;
+    }
+    .title{
+        padding: 1.5rem 0 ;
+    }
+    .wrap .boxOne{
+        height: 200px;
+    }
+    .wrap .text{
+        padding: .8rem;
+    }
+    .wrap h3{
+        font-size: .8rem;
+    }
+    .wrap .text p{
+        font-size: .6rem;
+    }
+}
+
+@media (max-width : 670px) {
+
+    .wrap .boxOne{
+        height: 180px;
+    }
+    .wrap .text{
+        padding: .5rem;
+    }
+    .wrap h3{
+        font-size: .6rem;
+    }
+    .wrap .text p{
+        font-size: .5rem;
+    }
+}
+
+@media(max-width: 520px){
+
+    .firstSec{
+
+        padding-top: 6.5rem;
+
+    }
+
+
+    .firstPage h1{
+        font-size: 1.85rem;
+    }
+    .firstPage span{
+        font-size: .85rem;
+    }
+    .title{
+        padding: 1rem;
+    }
+    .title h2{
+        font-size: 1rem;
+    }
+    .title span{
+        font-size: 2.5rem;
+    }
+    .wrap .boxOne{
+        width: 33.3%;
+        margin: 4px;
+    }
+    .wrap .text{
+        padding: .4rem;
+    }
+    .wrap h3{
+        font-size: .6rem;
+    }
+    .wrap .text p{
+        font-size: .4rem;
+    }
+}
+
+@media(max-width: 375px){
+
+    .firstSec{
+
+        padding-top: 7rem;
+
+    }
+
+
+    .firstPage h1{
+
+        font-size: 1.4rem;
+
+    }
+
+    .firstPage span{
+
+        font-size: 0.55rem;
+
+    }
+
+    .title{
+        padding: .5rem;
+    }
+    .title h2{
+        font-size: .5rem;
+    }
+    .title span{
+        font-size: 1.5rem;
+    }
+    .wrap .boxOne{
+        height: 110px;
+        width: 33.3%;
+        margin: 2px;
+    }
+    .wrap .text{
+        padding: .3rem;
+    }
+    .wrap h3{
+        font-size: .4rem;
+    }
+    .wrap .text p{
+        font-size: .3rem;
+    }
+}
+
